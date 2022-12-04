@@ -63,6 +63,7 @@ public class ShotWeapon : MonoBehaviour
                     if (Physics.Raycast(ray, out RaycastHit hitInfo,50f,_layerBarrels))
                     {
                         var barrels = hitInfo.collider.gameObject;
+                        barrels.GetComponentInParent<AudioSource>().Play();
                         var fxbarrels = Instantiate(_fxBarrels, barrels.transform);
                         fxbarrels.transform.SetParent(null);
                         barrels.GetComponent<Rigidbody>().AddForce(0f,5000f,0f);

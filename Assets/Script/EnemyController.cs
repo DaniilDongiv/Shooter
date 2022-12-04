@@ -35,6 +35,7 @@ namespace Script
     
         public void ShowDeath()
         {
+            
             foreach(var rigidbody in GetComponentsInChildren<Rigidbody>())
             {
                 rigidbody.isKinematic = false;
@@ -44,16 +45,17 @@ namespace Script
             {
                 _enemy.QuantityEnemy--;
                 _globalUIManager.QuantityEnemyText.text = _enemy.QuantityEnemy.ToString();
+                gameObject.GetComponentInParent<AudioSource>().Play();
+                GetComponent<NavMeshAgent>().enabled = false;
             }
             _isDeath = false;
-            GetComponent<NavMeshAgent>().enabled = false;
+            
         }
         
         void Update()
         {
             if (_isDeath)
             {
-                transform.LookAt(_player);
                 _navMeshAgent.SetDestination(_player.transform.position);
             }
         }

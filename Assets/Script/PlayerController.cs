@@ -57,7 +57,7 @@ public class PlayerController : MonoBehaviour
         transform.Rotate(Vector3.up, rotationAngle * horizontalInput);
     }
     
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Enemy")
         {
