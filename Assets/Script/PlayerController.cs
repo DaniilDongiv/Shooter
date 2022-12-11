@@ -1,8 +1,11 @@
+using System.Collections;
 using Script;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public int _hp;
+    
     [SerializeField]
     private float _speed;
     [SerializeField]
@@ -14,17 +17,17 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float _smoothTime = 0.1f;
     [SerializeField]
-    private GlobalUIManager _globalUIManager; 
+    private GlobalUIManager _globalUIManager;
+    [SerializeField]
+    private GameObject _weapon;
     
-    public int _hp;
     private float _xRot;
     private float _yRot;
     private float _xRotCurrent;
     private float _yRotCurrent;
     private float _currentVelosityX;
     private float _currentVelosityY;
-    
-    
+
     void Update()
     {
         MouseMove();
@@ -55,8 +58,22 @@ public class PlayerController : MonoBehaviour
         transform.Translate(Vector3.forward * step * verticalInput);
         var rotationAngle = Time.deltaTime * _speed;
         transform.Rotate(Vector3.up, rotationAngle * horizontalInput);
+        StartCoroutine(_Pause());
     }
-    
+
+    private IEnumerator _Pause()
+    {
+        if (Input.GetAxis("Vertical") >= 0.009 || Input.GetAxis("Horizontal") > 0.009)
+        {
+            _weapon.GetComponent<Animator>().SetTrigger("run");
+        }
+        yield return new WaitForSeconds(2f);
+        if (Input.GetAxis("Vertical") < 0.009)
+        {
+            _weapon.GetComponent<Animator>().SetTrigger("stoprun");
+        }
+        yield return null;
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Enemy")

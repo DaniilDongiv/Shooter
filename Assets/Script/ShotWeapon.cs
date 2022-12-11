@@ -1,11 +1,12 @@
 using System.Collections;
 using Script;
-using Unity.Services.Analytics;
 using UnityEngine;
-using UnityEngine.Rendering.PostProcessing;
+using UnityEngine.AI;
 
 public class ShotWeapon : MonoBehaviour
 {
+    public int Bullets = 20;
+    
     [SerializeField]
     private ParticleSystem _fxFire;
     [SerializeField]
@@ -28,8 +29,11 @@ public class ShotWeapon : MonoBehaviour
     private GlobalUIManager _globalUIManager;
     [SerializeField] 
     private Camera _camera;
+    [SerializeField]
+    private WeaponSpawner _weaponSpawner;
+    [SerializeField]
+    private GameObject _aim;
     
-    public int Bullets = 20;
     private float _timer;
     private bool _isAiming = true;
 
@@ -43,61 +47,75 @@ public class ShotWeapon : MonoBehaviour
         _timer -= Time.deltaTime;
         if (Input.GetMouseButton(0))
         {
-            if(_timer<=0)
-            {
-                if (Bullets>0)
-                {
-                    var ray = new Ray(transform.position, transform.forward);
-                    Debug.DrawRay(transform.position,transform.forward * 50, Color.red);
-                    _weapon.GetComponent<Animator>().SetTrigger("shot");
-                    if (Physics.Raycast(ray, out RaycastHit _raycastHit,50f,_layerEnemy))
-                    {
-                        var limbEnemy = _raycastHit.collider.gameObject;
-                        _enemyController = limbEnemy.GetComponentInParent<EnemyController>();
-                        if (_enemyController != null)
-                        {
-                            _enemyController.ShowDeath();
-                            StartCoroutine(FxDead(limbEnemy));
-                        }
-                    }
-                    if (Physics.Raycast(ray, out RaycastHit hitInfo,50f,_layerBarrels))
-                    {
-                        var barrels = hitInfo.collider.gameObject;
-                        barrels.GetComponentInParent<AudioSource>().Play();
-                        var fxbarrels = Instantiate(_fxBarrels, barrels.transform);
-                        fxbarrels.transform.SetParent(null);
-                        barrels.GetComponent<Rigidbody>().AddForce(0f,5000f,0f);
-                        
-                    }
-                    gameObject.GetComponent<AudioSource>().Play();
-                    _aimAnim.AnimAim();
-                    
-                    Bullets--;
-                    _globalUIManager.QuantityBullet.text = Bullets.ToString();
-
-                    StartCoroutine(FxFire());
-                }
-                _timer=0.1f;
-            }
+            Shoot();
         }
 
         if (Input.GetMouseButtonDown(1))
         {
-            if (_isAiming)
-            {
-                _weapon.GetComponent<Animator>().SetTrigger("Aiming");
-                StartCoroutine(Aiming());
-                _isAiming = !_isAiming;
-            }
-            else if(!_isAiming)
-            {
-                _weapon.GetComponent<Animator>().SetTrigger("DontAiming");
-                StartCoroutine(Aiming());
-                _isAiming = true;
-            }
+            TakeAim();
         }
     }
 
+    private void Shoot()
+    {
+        if(_timer<=0)
+        {
+            if (Bullets>0)
+            {
+                var ray = new Ray(transform.position, transform.forward);
+                Debug.DrawRay(transform.position,transform.forward * 50, Color.red);
+                _weapon.GetComponent<Animator>().SetTrigger("shot");
+                if (Physics.Raycast(ray, out RaycastHit _raycastHit,50f,_layerEnemy))
+                {
+                    var limbEnemy = _raycastHit.collider.gameObject;
+                    _enemyController = limbEnemy.GetComponentInParent<EnemyController>();
+                    if (_enemyController != null)
+                    {
+                        _enemyController.ShowDeath();
+                        StartCoroutine(FxDead(limbEnemy));
+                    }
+                }
+                if (Physics.Raycast(ray, out RaycastHit hitInfo,50f,_layerBarrels))
+                {
+                    var barrels = hitInfo.collider.gameObject;
+                    var barrelsPos = transform.position;
+                    barrelsPos.y = 0f;
+                    barrels.GetComponentInParent<AudioSource>().Play();
+                    var fxbarrels = Instantiate(_fxBarrels, barrels.transform);
+                    fxbarrels.transform.SetParent(null);
+                }
+                gameObject.GetComponent<AudioSource>().Play();
+                _aimAnim.AnimAim();
+                    
+                Bullets--;
+                _globalUIManager.QuantityBullet.text = Bullets.ToString();
+
+                StartCoroutine(FxFire());
+            }
+            _timer=0.1f;
+        }
+    }
+    private void TakeAim()
+    {
+        if (_isAiming)
+        {
+            if (_weaponSpawner.Weapon()[2].activeInHierarchy)
+                _aim.SetActive(false);
+            
+            _weapon.GetComponent<Animator>().SetTrigger("Aiming");
+            StartCoroutine(Aiming());
+            _isAiming = !_isAiming;
+        }
+        else if(!_isAiming)
+        {
+            if (_weaponSpawner.Weapon()[2].activeInHierarchy)
+                _aim.SetActive(true);
+            
+            _weapon.GetComponent<Animator>().SetTrigger("DontAiming");
+            StartCoroutine(Aiming());
+            _isAiming = true;
+        }
+    }
     private IEnumerator Aiming()
     {
         if (_isAiming)

@@ -6,19 +6,20 @@ namespace Script
 {
     public class EnemyController : MonoBehaviour
     {
+        public Rigidbody[] Rigidbodies;
+        
         [SerializeField]
-        private Transform _player;
+        private Transform _playerPosition;
         [SerializeField]
-        private EnemySpawn _enemy;
+        private GlobalValuesManager _globalValuesManager;
         [SerializeField]
         private NavMeshAgent _navMeshAgent;
         [SerializeField] 
         private PlayerController _playerController;
         [SerializeField]
         private GlobalUIManager _globalUIManager;
-
-        public Rigidbody[] Rigidbodies;
-        private bool _isDeath = true;
+        
+        private bool _isDead;
         private Animator _animator;
         private static readonly int _hit = Animator.StringToHash("hit");
         
@@ -28,9 +29,10 @@ namespace Script
             {
                 rigidbody.isKinematic = true;
             }
+            
             _navMeshAgent = GetComponent<NavMeshAgent>();
             _animator = GetComponent<Animator>();
-            _globalUIManager.QuantityEnemyText.text = _enemy.QuantityEnemy.ToString();
+            _globalUIManager.QuantityEnemyText.text = _globalValuesManager.QuantityEnemy.ToString();
         }
     
         public void ShowDeath()
@@ -41,37 +43,37 @@ namespace Script
                 rigidbody.isKinematic = false;
             }
             gameObject.GetComponentInParent<Animator>().enabled = false;
-            if (_isDeath)
+            if (!_isDead)
             {
-                _enemy.QuantityEnemy--;
-                _globalUIManager.QuantityEnemyText.text = _enemy.QuantityEnemy.ToString();
+                _globalValuesManager.QuantityEnemy--;
+                _globalUIManager.QuantityEnemyText.text = _globalValuesManager.QuantityEnemy.ToString();
                 gameObject.GetComponentInParent<AudioSource>().Play();
                 GetComponent<NavMeshAgent>().enabled = false;
             }
-            _isDeath = false;
+            _isDead = true;
             
         }
         
         void Update()
         {
-            if (_isDeath)
+            if (!_isDead)
             {
-                _navMeshAgent.SetDestination(_player.transform.position);
+                _navMeshAgent.SetDestination(_playerPosition.transform.position);
             }
         }
         
         public void AnimatorHit()
         {
-            if (_isDeath)
+            if (!_isDead)
             {
-                StartCoroutine(Pause(3.5f));
+                StartCoroutine(StopEnemyWalking(3.5f));
                 _animator.SetTrigger(_hit);
                 _playerController._hp --;
                 _globalUIManager._hpText.text = _playerController._hp.ToString();
             }
         }
 
-        private IEnumerator Pause(float second)
+        private IEnumerator StopEnemyWalking(float second)
         {
             _navMeshAgent.speed = 0f;
             yield return new WaitForSeconds(second);
