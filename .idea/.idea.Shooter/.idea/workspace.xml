@@ -6,77 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="475bd753-2044-4046-a8b1-d1f6037e2d23" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animator/AK-47/AKM.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animator/AK-47/AKM.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Mesh.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Mesh/Barrels_mesh(1).FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Mesh/Barrels_mesh(1).FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Mesh/Barrels_mesh(2).FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Mesh/Barrels_mesh(2).FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Prefab/Barrels(1).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Prefab/Barrels(1).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Prefab/Barrels(2).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Prefab/Barrels(2).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Prefab/Barrels(3).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Prefab/Barrels(3).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Prefab/Barrels(4).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Prefab/Barrels(4).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Texture.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Texture/Barrels_diffuse(1).tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Texture/Barrels_diffuse(1).tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Texture/Barrels_diffuse(2).tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Texture/Barrels_diffuse(2).tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Texture/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Texture/Materials/Barrels_diffuse(1).mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Texture/Materials/Barrels_diffuse(1).mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Texture/Materials/Barrels_diffuse(2).mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Barrels/Texture/Materials/Barrels_diffuse(2).mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Meshes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Meshes/Fir_Tree.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Meshes/Fir_Tree.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Meshes/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Meshes/Materials/Free_Tree.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Meshes/Materials/Free_Tree.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Meshes/Materials/No Name.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Meshes/Materials/No Name.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Meshes/Oak_Tree.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Meshes/Oak_Tree.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Meshes/Palm_Tree.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Meshes/Palm_Tree.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Meshes/Poplar_Tree.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Meshes/Poplar_Tree.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Prefabs/Fir_Tree.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Prefabs/Fir_Tree.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Prefabs/Oak_Tree.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Prefabs/Oak_Tree.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Prefabs/Palm_Tree.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Prefabs/Palm_Tree.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Prefabs/Poplar_Tree.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Prefabs/Poplar_Tree.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Scenes/Demo.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Scenes/Demo.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Scenes/DemoSettings.lighting" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Scenes/DemoSettings.lighting.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Textures/tree_diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Darth_Artisan/Free_Trees/Textures/tree_diffuse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Post-processing Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Post-processing Profile.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/EnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EnemyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/EnemySpawn.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/EnemySpawn.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/ShotWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/ShotWeapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/fora.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/fora.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
@@ -254,7 +189,8 @@
       <workItem from="1670765953818" duration="7505000" />
       <workItem from="1670777417172" duration="1524000" />
       <workItem from="1670779524538" duration="1406000" />
-      <workItem from="1670782150906" duration="2196000" />
+      <workItem from="1670782150906" duration="3118000" />
+      <workItem from="1670863068731" duration="1885000" />
     </task>
     <task id="LOCAL-00001" summary="Create the Game">
       <created>1666288409668</created>
@@ -340,7 +276,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670145045934</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Update in game">
+      <created>1670785168377</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670785168378</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Update in the game">
+      <created>1670785218697</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670785218697</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,6 +339,8 @@
     <MESSAGE value="Update" />
     <MESSAGE value="q" />
     <MESSAGE value="addendum" />
-    <option name="LAST_COMMIT_MESSAGE" value="addendum" />
+    <MESSAGE value="Update in game" />
+    <MESSAGE value="Update in the game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update in the game" />
   </component>
 </project>
