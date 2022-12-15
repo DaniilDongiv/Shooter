@@ -1,10 +1,10 @@
-using System.Collections;
 using Script;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public int _hp;
+    [HideInInspector]
+    public int _hpPlayer = 100;
     
     [SerializeField]
     private float _speed;
@@ -27,13 +27,25 @@ public class PlayerController : MonoBehaviour
     private float _yRotCurrent;
     private float _currentVelosityX;
     private float _currentVelosityY;
-
-    void Update()
+    private bool _run = true;
+    
+    private void Update()
     {
         MouseMove();
         Move();
         
-        if (_hp<=0)
+        if (Input.GetKey(KeyCode.W) && _run)
+        {
+            _weapon.GetComponent<Animator>().SetTrigger("run");
+            _run = !_run;
+        }
+        if (!Input.GetKey(KeyCode.W) && !_run)
+        {
+            _weapon.GetComponent<Animator>().SetTrigger("stoprun");
+            _run = true;
+        }
+
+        if (_hpPlayer<=0)
         {
             _globalUIManager._hpText.text = 0.ToString();
         }
@@ -58,22 +70,8 @@ public class PlayerController : MonoBehaviour
         transform.Translate(Vector3.forward * step * verticalInput);
         var rotationAngle = Time.deltaTime * _speed;
         transform.Rotate(Vector3.up, rotationAngle * horizontalInput);
-        StartCoroutine(_Pause());
     }
-
-    private IEnumerator _Pause()
-    {
-        if (Input.GetAxis("Vertical") >= 0.009 || Input.GetAxis("Horizontal") > 0.009)
-        {
-            _weapon.GetComponent<Animator>().SetTrigger("run");
-        }
-        yield return new WaitForSeconds(2f);
-        if (Input.GetAxis("Vertical") < 0.009)
-        {
-            _weapon.GetComponent<Animator>().SetTrigger("stoprun");
-        }
-        yield return null;
-    }
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Enemy")

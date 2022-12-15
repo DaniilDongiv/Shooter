@@ -8,7 +8,7 @@ public class SelectedPlayerHandler : MonoBehaviour
 
     private Dictionary<string, Player> _playerPrefabsByName = new();
 
-    public void Awake()
+    private void Awake()
     {
         foreach (var playerPrefab in _playersPrefab)
         {

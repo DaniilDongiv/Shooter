@@ -8,36 +8,33 @@ namespace Script
     {
         public Rigidbody[] Rigidbodies;
         
-        [SerializeField]
-        private Transform _playerPosition;
-        [SerializeField]
+        private GameObject _playerPosition;
         private GlobalValuesManager _globalValuesManager;
-        [SerializeField]
         private NavMeshAgent _navMeshAgent;
-        [SerializeField] 
         private PlayerController _playerController;
-        [SerializeField]
         private GlobalUIManager _globalUIManager;
-        
         private bool _isDead;
         private Animator _animator;
         private static readonly int _hit = Animator.StringToHash("hit");
         
-        void Start()
+        private void Start()
         {
+            _playerPosition = GameObject.Find("Player");
+            _globalValuesManager = GameObject.Find("GlobalValueManager").GetComponent<GlobalValuesManager>();
+            _playerController = GameObject.Find("Player").GetComponent<PlayerController>(); 
+            _globalUIManager = GameObject.Find("UIManager").GetComponent<GlobalUIManager>();
+            _navMeshAgent = GetComponent<NavMeshAgent>();
+            _animator = GetComponent<Animator>();
+            _globalUIManager.QuantityEnemyText.text = _globalValuesManager.QuantityEnemy.ToString();
+            
             foreach(var rigidbody in Rigidbodies)
             {
                 rigidbody.isKinematic = true;
             }
-            
-            _navMeshAgent = GetComponent<NavMeshAgent>();
-            _animator = GetComponent<Animator>();
-            _globalUIManager.QuantityEnemyText.text = _globalValuesManager.QuantityEnemy.ToString();
         }
-    
+        
         public void ShowDeath()
         {
-            
             foreach(var rigidbody in GetComponentsInChildren<Rigidbody>())
             {
                 rigidbody.isKinematic = false;
@@ -45,16 +42,16 @@ namespace Script
             gameObject.GetComponentInParent<Animator>().enabled = false;
             if (!_isDead)
             {
-                _globalValuesManager.QuantityEnemy--;
+                _globalValuesManager.QuantityEnemy++;
                 _globalUIManager.QuantityEnemyText.text = _globalValuesManager.QuantityEnemy.ToString();
                 gameObject.GetComponentInParent<AudioSource>().Play();
                 GetComponent<NavMeshAgent>().enabled = false;
+                EventManager.OnEnemyDead();
             }
             _isDead = true;
-            
         }
         
-        void Update()
+        private void Update()
         {
             if (!_isDead)
             {
@@ -68,8 +65,8 @@ namespace Script
             {
                 StartCoroutine(StopEnemyWalking(3.5f));
                 _animator.SetTrigger(_hit);
-                _playerController._hp --;
-                _globalUIManager._hpText.text = _playerController._hp.ToString();
+                _playerController._hpPlayer --;
+                _globalUIManager._hpText.text = _playerController._hpPlayer.ToString();
             }
         }
 

@@ -116,7 +116,7 @@ namespace TMPro.Examples
                 if (!isCharacterVisible)
                     continue;
 
-                float dottedLineSize = 6;
+                //float dottedLineSize = 6;
 
                 // Get Bottom Left and Top Right position of the current character
                 Vector3 bottomLeft = m_Transform.TransformPoint(characterInfo.bottomLeft);
@@ -492,7 +492,7 @@ namespace TMPro.Examples
                 float baseline = lineInfo.baseline;
                 float descentline = lineInfo.descender;
 
-                float dottedLineSize = 12;
+                //float dottedLineSize = 12;
 
                 // Draw line extents
                 DrawDottedRectangle(m_Transform.TransformPoint(lineInfo.lineExtents.min), m_Transform.TransformPoint(lineInfo.lineExtents.max), Color.green, 4);
