@@ -7,411 +7,9 @@
     <list default="true" id="475bd753-2044-4046-a8b1-d1f6037e2d23" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animator/AK-47/AKM.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animator/AK-47/AKM.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animator/GameObject.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animator/GameObject.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animator/Weapon.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animator/Weapon.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Post-processing Profile.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Post-processing Profile.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/EnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EnemyController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EnemySpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/GlobalValuesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/GlobalValuesManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/SelectedPlayerHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/SelectedPlayerHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/ShotWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/ShotWeapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Electronic Highway Sign.TTF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Electronic Highway Sign.TTF.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Roboto-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Roboto-Bold.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - Surface Shader Scene.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - Surface Shader Scene.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Logo Scene.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Logo Scene.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Surface Shader Scene.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Surface Shader Scene.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Small Crate_diffuse.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Small Crate_diffuse.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/Text Popup.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/Text Popup.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Drop Shadow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Drop Shadow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Outline.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Outline.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Sunny Days.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Sunny Days.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Drop Shadow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Drop Shadow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Outline.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Outline.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Glow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Glow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Logo.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Logo.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Metalic Green.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Metalic Green.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Overlay.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Overlay.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Soft Mask.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Soft Mask.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF - Drop Shadow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF - Drop Shadow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF - Surface.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF - Surface.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets/Default Sprite Asset.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets/Default Sprite Asset.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets/DropCap Numbers.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets/DropCap Numbers.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/01-  Single Line TextMesh Pro.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/01-  Single Line TextMesh Pro.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/02 - Multi-line TextMesh Pro.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/02 - Multi-line TextMesh Pro.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/03 - Line Justification.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/03 - Line Justification.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/04 - Word Wrapping.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/04 - Word Wrapping.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/05 - Style Tags.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/05 - Style Tags.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/06 - Extra Rich Text Examples.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/06 - Extra Rich Text Examples.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/07 - Superscript &amp; Subscript Example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/07 - Superscript &amp; Subscript Example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/08 - Improved Text Alignment.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/08 - Improved Text Alignment.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/09 - Margin Tag Example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/09 - Margin Tag Example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/10 - Bullets &amp; Numbered List Example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/10 - Bullets &amp; Numbered List Example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/11 - The Style Tag.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/11 - The Style Tag.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12 - Link Example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12 - Link Example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12a - Text Interactions.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12a - Text Interactions.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/13 - Soft Hyphenation.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/13 - Soft Hyphenation.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/14 - Multi Font &amp; Sprites.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/14 - Multi Font &amp; Sprites.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/15 - Inline Graphics &amp; Sprites.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/15 - Inline Graphics &amp; Sprites.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/16 - Linked text overflow mode example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/16 - Linked text overflow mode example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/17 - Old Computer Terminal.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/17 - Old Computer Terminal.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/18 - ScrollRect &amp; Masking &amp; Layout.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/18 - ScrollRect &amp; Masking &amp; Layout.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/19 - Masking Texture &amp; Soft Mask.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/19 - Masking Texture &amp; Soft Mask.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/20 - Input Field with Scrollbar.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/20 - Input Field with Scrollbar.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/21 - Script Example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/21 - Script Example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/22 - Basic Scripting Example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/22 - Basic Scripting Example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/23 - Animating Vertex Attributes.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/23 - Animating Vertex Attributes.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/24 - Surface Shader Example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/24 - Surface Shader Example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/25 - Sunny Days Example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/25 - Sunny Days Example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/26 - Dropdown Placeholder Example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/26 - Dropdown Placeholder Example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/Benchmark (Floating Text).unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/Benchmark (Floating Text).unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites/Default Sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites/Default Sprites.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites/DropCap Numbers.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites/DropCap Numbers.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Brushed Metal 3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Brushed Metal 3.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Floor Cement.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Floor Cement.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Floor Tiles 1 - diffuse.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Floor Tiles 1 - diffuse.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Fruit Jelly (B&amp;W).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Fruit Jelly (B&amp;W).jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Diagonal (Color).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Diagonal (Color).jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Horizontal (Color).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Horizontal (Color).jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Vertical (Color).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Vertical (Color).jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Mask Zig-n-Zag.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Mask Zig-n-Zag.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Small Crate_diffuse.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Small Crate_diffuse.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Small Crate_normal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Small Crate_normal.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Sunny Days - Seamless.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Sunny Days - Seamless.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Text Overflow - Linked Text Image 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Text Overflow - Linked Text Image 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Text Overflow - Linked Text UI Screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Text Overflow - Linked Text UI Screenshot.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Circle.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Circle.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Diagonal.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Diagonal.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Radial Double.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Radial Double.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Radial Quad.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Radial Quad.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Materials/WPNM_Optical_Sight.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Materials/WPNM_Optical_Sight.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Materials/WPNM_Optical_Sight_Lenses.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Materials/WPNM_Optical_Sight_Lenses.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Materials/WPNM_Optical_Sight_Reticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Materials/WPNM_Optical_Sight_Reticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Materials/WPNM_Silencer.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Materials/WPNM_Silencer.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Materials/WPNM_SynTaxP40.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Materials/WPNM_SynTaxP40.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Materials/WPNM_SynTaxP40_Camo.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Materials/WPNM_SynTaxP40_Camo.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Meshes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Meshes/WPN_Optical_Sight.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Meshes/WPN_Optical_Sight.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Meshes/WPN_Silencer.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Meshes/WPN_Silencer.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Meshes/WPN_SynTaxP40.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Meshes/WPN_SynTaxP40.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Prefabs/SynTaxP40_Attachments_OFF.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Prefabs/SynTaxP40_Attachments_OFF.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Prefabs/SynTaxP40_Attachments_ON.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Prefabs/SynTaxP40_Attachments_ON.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Scene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Scene/Demo_Preview_Scene_001.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Scene/Demo_Preview_Scene_001.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Scene/Floor_Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Scene/Floor_Material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Scene/HDRI_Skybox.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Scene/HDRI_Skybox.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Scene/Scene_Floor_Plane.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Scene/Scene_Floor_Plane.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Scene/glass_passage_8k.hdr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Scene/glass_passage_8k.hdr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_Optical_Sight_1_AlbedoTransparency.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_Optical_Sight_1_AlbedoTransparency.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_Optical_Sight_1_MetallicSmoothness.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_Optical_Sight_1_MetallicSmoothness.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_Optical_Sight_1_Normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_Optical_Sight_1_Normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_Silencer_AlbedoTransparency.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_Silencer_AlbedoTransparency.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_Silencer_MetallicSmoothness.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_Silencer_MetallicSmoothness.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_Silencer_Normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_Silencer_Normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_SynTax_P40_AlbedoTransparency.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_SynTax_P40_AlbedoTransparency.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_SynTax_P40_Camo_AlbedoTransparency.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_SynTax_P40_Camo_AlbedoTransparency.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_SynTax_P40_Camo_MetallicSmoothness.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_SynTax_P40_Camo_MetallicSmoothness.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_SynTax_P40_Camo_Normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_SynTax_P40_Camo_Normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_SynTax_P40_MetallicSmoothness.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_SynTax_P40_MetallicSmoothness.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_SynTax_P40_Normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weapons_MassConfusion/SYNTax_P40/Textures/WPNT_SynTax_P40_Normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/EventManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/EventManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -448,6 +46,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.services.analytics@4.2.0/Runtime/AnalyticsServiceInstance.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/BaseInput.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/StandaloneInputModule.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7bcd9bfa40c4821acdda68a8585061615d800/d0/68d054f2/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -601,7 +200,11 @@
       <workItem from="1670863068731" duration="2512000" />
       <workItem from="1670945816443" duration="9919000" />
       <workItem from="1671042266671" duration="6484000" />
-      <workItem from="1671134026361" duration="1544000" />
+      <workItem from="1671134026361" duration="1714000" />
+      <workItem from="1671223115502" duration="93000" />
+      <workItem from="1671223272249" duration="143000" />
+      <workItem from="1671289726428" duration="598000" />
+      <workItem from="1671359898997" duration="466000" />
     </task>
     <task id="LOCAL-00001" summary="Create the Game">
       <created>1666288409668</created>
@@ -708,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670865323135</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update in the game and in code">
+      <created>1671135792763</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1671135792763</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -759,6 +369,7 @@
     <MESSAGE value="Update in game" />
     <MESSAGE value="Update in the game" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Update in the game and in code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update in the game and in code" />
   </component>
 </project>

@@ -46,7 +46,8 @@ namespace Script
                 _globalUIManager.QuantityEnemyText.text = _globalValuesManager.QuantityEnemy.ToString();
                 gameObject.GetComponentInParent<AudioSource>().Play();
                 GetComponent<NavMeshAgent>().enabled = false;
-                EventManager.OnEnemyDead();
+                EnemySpawner.OnEnemyDead();
+
             }
             _isDead = true;
         }

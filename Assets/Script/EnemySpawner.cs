@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -9,10 +10,11 @@ namespace Script
         private int _quantityEnemy;
         [SerializeField]
         private GameObject _enemy;
-
+        
+        private static event Action EnemyDead;
         private void Start()
         {
-            EventManager.EnemyDead += OnSpawnerEnemy;
+            EnemyDead += OnSpawnerEnemy;
             SpawnEnemy();
         }
 
@@ -25,6 +27,11 @@ namespace Script
                 var enemy = Instantiate(_enemy);
                 enemy.transform.position = new Vector3(createdEnemyPositionX, 0.168f, createdEnemyPositionZ);
             }
+        }
+
+        public static void OnEnemyDead()
+        {
+            EnemyDead?.Invoke();
         }
 
         private void OnSpawnerEnemy()
